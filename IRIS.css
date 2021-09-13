@@ -1,0 +1,251 @@
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #FFFFFF;
+    margin: 18px 90px 0 90px;
+}
+
+.comp-name {
+    float: left;
+
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.nav-item {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px;
+
+}
+
+.nav_phone {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    margin: 0 20px 0 24px;
+}
+
+.nav-button {
+    padding: 10px 7px;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+main {
+    background-color: #E5E5E5;
+    margin: 0 auto;
+}
+
+.section1 {
+    display: flex;
+    padding-left: 90px;
+}
+
+.section1-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 h1 {
+    font-size: 55px;
+    line-height: 30px;
+}
+
+.section1 h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 6000;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.section1 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.section1 img {
+    width: 700px;
+    height: 700px;
+}
+
+.section2 h1 {
+    text-align: center;
+    font-size: 55px;
+    line-height: 24px;
+}
+
+.section2-flex1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+}
+
+.section2-flex11 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+}
+
+.section2-flex11 h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.section2-flex11 p {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.section2 img {
+    width: 700px;
+    height: 700px;
+}
+
+.section2-flex2 {
+    display: flex;
+    justify-content: space-around;
+    /*padding-left: 90px;*/
+}
+
+.section2-flex2 img {
+    width: 250px;
+    height: 250px;
+}
+
+.section3 h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 24px;
+    color: #3F3D56;
+}
+
+.section3 img {
+    text-align: center;
+}
+
+.section4 h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 24px;
+}
+
+.section4 first-button {
+
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.section4 h3 {
+    font-family: Open Sans, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.section4-flex22 h4 {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+.section4-flex22 p {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.section4-flex22 button {
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 7px;
+}
+
+.section4-flex22 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4-flex2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.section4-flex33 h4 {
+    font-family: Source Sans Pro, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+.section4-flex33 p {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.section4-flex33 button {
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 7px;
+}
+
+.section4-flex33 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4-flex3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
