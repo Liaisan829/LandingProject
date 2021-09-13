@@ -8,6 +8,10 @@ h1 {
     font-weight: bold;
 }
 
+button {
+    border: none;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -172,10 +176,6 @@ main {
     line-height: 24px;
 }
 
-.section4 first-button {
-
-}
-
 h4 {
     font-style: normal;
     font-weight: 600;
@@ -203,6 +203,7 @@ h4 {
 }
 
 .section4-flex22 button {
+
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 7px;
 }
@@ -248,4 +249,27 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.section5 h1 {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.section5-buttonflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section5 h2{
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.section5-flex1{
+    display: flex;
+    flex-direction: column;
+
 }
