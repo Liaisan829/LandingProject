@@ -63,6 +63,7 @@ header {
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 20px;
     color: white;
+    font-family: Source Sans Proб sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
@@ -168,6 +169,7 @@ main {
 
 .section3 img {
     text-align: center;
+    margin: 0 auto;
 }
 
 .section4 h1 {
@@ -186,6 +188,19 @@ h4 {
     font-size: 30px;
     line-height: 30px;
     text-align: center;
+}
+
+.buttons {
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 20px;
 }
 
 .section4-flex22 h4 {
@@ -251,6 +266,11 @@ h4 {
     justify-content: center;
 }
 
+.colored {
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 20px;
+}
+
 .section5 h1 {
     font-size: 50px;
     line-height: 50px;
@@ -263,13 +283,137 @@ h4 {
     justify-content: space-around;
 }
 
-.section5 h2{
+.section5 h2 {
     font-size: 50px;
     line-height: 45px;
 }
 
-.section5-flex1{
+.section5-flex1 {
     display: flex;
     flex-direction: column;
 
 }
+
+.section6 h1 {
+    font-size: 50px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.section6 h4 {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+select {
+    width: 553px;
+    height: 70px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+}
+
+.selectors-flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.selectors-flex11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.section6 p {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #898989;
+}
+
+.plus {
+    width: 25px;
+    height: 25px;
+}
+
+.plus-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.last-select {
+    background-color: white;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    border-radius: 7px;
+    border: none;
+}
+
+.section6-flex {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 1.0422px rgba(0, 0, 0, 0.08), 0px 1.0422px 12.5065px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+}
+
+.section6-flex p {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: #898989;
+}
+
+.line {
+    width: 382px;
+    height: 0;
+    border: 3px solid #B4ABAB;
+    background-color: #B4ABAB;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.section6-flex h5 {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 12px;
+}
+
+.section6-flex button {
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 7px;
+    width: 300px;
+    height: 70px;
+    left: 23px;
+    top: 563px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+}
+
+
+
+
