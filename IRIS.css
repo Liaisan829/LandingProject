@@ -9,8 +9,23 @@ h1 {
 }
 
 button {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 30px;
+    line-height: 20px;
+    border-radius: 20px;
+    background: none;
+    padding: 18px 28px;
+    cursor: pointer;
     border: none;
 }
+
+button:hover {
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border: none;
+}
+
 
 a {
     text-decoration: none;
@@ -36,7 +51,7 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .nav-item {
@@ -45,7 +60,7 @@ header {
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
-    padding: 20px;
+    padding: 15px;
 
 }
 
@@ -63,7 +78,7 @@ header {
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 20px;
     color: white;
-    font-family: Source Sans Proб sans-serif;
+    font-family: Source Sans Pro, sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
@@ -72,6 +87,7 @@ header {
 main {
     background-color: #E5E5E5;
     margin: 0 auto;
+
 }
 
 .section1 {
@@ -92,9 +108,18 @@ main {
 .section1 h2 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-weight: 6000;
     font-size: 40px;
     line-height: 20px;
+    padding-top: 30px;
+}
+
+.line1{
+    width: 190px;
+    height: 0;
+    border: 3px solid #B4ABAB;
+    background-color: #B4ABAB;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .section1 p {
@@ -110,25 +135,29 @@ main {
     height: 700px;
 }
 
+.section2{
+    padding-left: 90px;
+}
+
 .section2 h1 {
     text-align: center;
     font-size: 55px;
     line-height: 24px;
 }
 
-.section2-flex1 {
+.section2-flex {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding-left: 90px;
 }
 
-.section2-flex11 {
+.section2-innerFlex {
     display: flex;
     flex-direction: column;
-    padding-left: 90px;
+
 }
 
-.section2-flex11 h2 {
+.section2-innerFlex h2 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -136,7 +165,7 @@ main {
     line-height: 50px;
 }
 
-.section2-flex11 p {
+.section2-innerFlex p {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -145,17 +174,20 @@ main {
 }
 
 .section2 img {
-    width: 700px;
-    height: 700px;
+    width: 645px;
+    height: 320px;
+    margin-right: 100px;
+    margin-top: 35px;
 }
 
-.section2-flex2 {
+.section3 {
     display: flex;
     justify-content: space-around;
-    /*padding-left: 90px;*/
+    margin-left: 20px;
+    margin-top: 100px;
 }
 
-.section2-flex2 img {
+.section3 img {
     width: 250px;
     height: 250px;
 }
@@ -172,7 +204,15 @@ main {
     margin: 0 auto;
 }
 
-.section4 h1 {
+
+.section4 h1{
+    font-size: 50px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section5 h1 {
     text-align: center;
     font-size: 50px;
     line-height: 24px;
@@ -183,7 +223,7 @@ h4 {
     font-weight: 600;
 }
 
-.section4 h3 {
+.section5 h3 {
     font-family: Open Sans, sans-serif;
     font-size: 30px;
     line-height: 30px;
@@ -203,13 +243,13 @@ h4 {
     line-height: 20px;
 }
 
-.section4-flex22 h4 {
+.section5-flex22 h4 {
     font-family: Source Sans Pro, sans-serif;
     font-size: 35px;
     line-height: 30px;
 }
 
-.section4-flex22 p {
+.section5-flex22 p {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -217,24 +257,24 @@ h4 {
     line-height: 30px;
 }
 
-.section4-flex22 button {
+.section5-flex22 button {
 
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 7px;
 }
 
-.section4-flex22 {
+.section5-flex22 {
     display: flex;
     flex-direction: column;
 }
 
-.section4-flex2 {
+.section5-flex2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
 }
 
-.section4-flex33 h4 {
+.section5-flex33 h4 {
     font-family: Source Sans Pro, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -242,7 +282,7 @@ h4 {
     line-height: 30px;
 }
 
-.section4-flex33 p {
+.section5-flex33 p {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -250,17 +290,17 @@ h4 {
     line-height: 30px;
 }
 
-.section4-flex33 button {
+.section5-flex33 button {
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 7px;
 }
 
-.section4-flex33 {
+.section5-flex33 {
     display: flex;
     flex-direction: column;
 }
 
-.section4-flex3 {
+.section5-flex3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -270,6 +310,11 @@ h4 {
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 20px;
 }
+
+
+
+
+/**/
 
 .section5 h1 {
     font-size: 50px;
@@ -291,7 +336,11 @@ h4 {
 .section5-flex1 {
     display: flex;
     flex-direction: column;
-
+}
+.section5-flex1 h1 {
+    font-size: 50px;
+    line-height: 45px;
+    text-align: left;
 }
 
 .section6 h1 {
