@@ -212,6 +212,43 @@ main {
     margin-top: 50px;
 }
 
+.goodTrade img{
+    position: relative;
+}
+
+.rectangle{
+    z-index: 1;
+}
+
+.goodTradeText{
+    position: absolute;
+    z-index: 2;
+    top: 1770px;
+    left: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 12px;
+    margin-left: 15px;
+}
+
+.round{
+    z-index: 2;
+    right: 280px;
+    bottom: 25px;
+}
+
+.pointer{
+    z-index: 2;
+    right: 1050px;
+    bottom: 50px;
+}
+
+.woman{
+    z-index: 3;
+    right: 550px;
+    bottom: 45px;
+}
+
 .section5 h1 {
     text-align: center;
     font-size: 50px;
