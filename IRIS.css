@@ -8,6 +8,11 @@ h1 {
     font-weight: bold;
 }
 
+h4 {
+    font-style: normal;
+    font-weight: 600;
+}
+
 button {
     font-family: 'Open Sans', serif;
     font-style: normal;
@@ -113,7 +118,7 @@ main {
     padding-top: 30px;
 }
 
-.line1{
+.line1 {
     width: 190px;
     height: 0;
     border: 3px solid #B4ABAB;
@@ -135,7 +140,7 @@ main {
     height: 700px;
 }
 
-.section2{
+.section2 {
     padding-left: 90px;
 }
 
@@ -204,60 +209,202 @@ main {
     margin: 0 auto;
 }
 
+.section4 {
+    margin-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding: 0;
+}
 
-.section4 h1{
+.section4 h1 {
     font-size: 50px;
     line-height: 24px;
     text-align: center;
     margin-top: 50px;
+    color: #3F3D56;
+    padding-bottom: 40px;
 }
 
-.goodTrade img{
+.goodTrade{
+    margin: 0;
+    padding: 0;
+}
+
+.goodTrade img {
     position: relative;
 }
 
-.rectangle{
+.rectangle1 {
     z-index: 1;
+
+    /*width: 525px;*/
+    /*height: 305.03px; может сделать чуть больше в размере и высота и ширина*/
 }
 
-.goodTradeText{
+.goodTradeText {
+    font-family: Open Sans, sans-serif;
     position: absolute;
     z-index: 2;
-    top: 1770px;
-    left: 20px;
+    top: 1845px;
+    left: 125px;
     font-weight: 600;
     font-size: 40px;
     line-height: 12px;
-    margin-left: 15px;
 }
 
-.round{
+.round1 {
     z-index: 2;
-    right: 280px;
+    right: 270px;
     bottom: 25px;
 }
 
-.pointer{
+.pointer1 {
     z-index: 2;
     right: 1050px;
-    bottom: 50px;
+    bottom: 40px;
 }
 
-.woman{
+
+.woman1 {
     z-index: 3;
-    right: 550px;
+    right: 540px;
     bottom: 45px;
+}
+
+.anotherTrade{
+    margin: 0;
+    padding: 0;
+}
+
+.anotherTrade img {
+    position: relative;
+}
+
+.anotherTradeText {
+    font-family: Open Sans, sans-serif;
+    position: absolute;
+    z-index: 2;
+    top: 1845px;
+    left: 880px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 12px;
+}
+
+.rectangle2 {
+    z-index: 1;
+    left: 750px;
+    bottom: 335px;
+}
+
+.round2 {
+    z-index: 2;
+    left: 480px;
+    bottom: 360px;
+}
+
+.pointer2 {
+    z-index: 2;
+    left: 35px;
+    bottom: 380px;
+}
+
+.woman2 {
+    z-index: 3;
+    left: 180px;
+    bottom: 390px;
+}
+
+.publicCatering{
+    margin: 0;
+    padding: 0;
+}
+
+.publicCatering img {
+    position: relative;
+}
+
+.publicCateringText {
+    font-family: Open Sans, sans-serif;
+    position: absolute;
+    z-index: 2;
+    top: 2325px;
+    left: 125px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 12px;
+}
+
+.rectangle3 {
+    z-index: 1;
+    bottom: 200px;
+}
+
+.pointer3 {
+    z-index: 2;
+    right: 510px;
+    bottom: 235px;
+}
+
+.manWoman {
+    z-index: 3;
+    right: 410px;
+    bottom: 230px;
+}
+
+/*.services{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+.services img {
+    position: relative;
+}
+
+.servicesText {
+    font-family: Open Sans, sans-serif;
+    position: absolute;
+    z-index: 2;
+    top: 2325px;
+    left: 880px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 12px;
+}
+
+.rectangle4 {
+    z-index: 1;
+    left: 750px;
+    bottom: 537px;
+}
+
+.round4 {
+    z-index: 2;
+    left: 510px;
+    bottom: 570px;
+}
+
+.pointer4 {
+    z-index: 2;
+    left: 35px;
+    bottom: 575px;
+}
+
+.woman4 {
+    z-index: 3;
+    left: 180px;
+    bottom: 575px;
+}
+
+.section5{
+
 }
 
 .section5 h1 {
     text-align: center;
     font-size: 50px;
     line-height: 24px;
-}
-
-h4 {
-    font-style: normal;
-    font-weight: 600;
+    /*margin-top: 120px;*/
 }
 
 .section5 h3 {
@@ -349,8 +496,6 @@ h4 {
 }
 
 
-
-
 /**/
 
 .section5 h1 {
@@ -374,6 +519,7 @@ h4 {
     display: flex;
     flex-direction: column;
 }
+
 .section5-flex1 h1 {
     font-size: 50px;
     line-height: 45px;
