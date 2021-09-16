@@ -13,14 +13,18 @@ h4 {
     font-weight: 600;
 }
 
-/*.line0 {*/
-/*    width: 67px;*/
-/*    height: 0px;*/
-/*    background-color: #3F3D56;*/
-/*    border: 2px solid #3F3D56;*/
-/*    margin-top: 45px;*/
-/*    margin-right: 75px;*/
-/*}*/
+.line0 {
+    width: 80px;
+    height: 0;
+    border: 2px solid #3F3D56;
+    background-color: #3F3D56;
+    margin-left: 15px;
+}
+
+.line0-flex {
+    display: flex;
+    flex-direction: column;
+}
 
 button {
     font-family: 'Open Sans', serif;
@@ -31,11 +35,13 @@ button {
     padding: 18px 28px;
     cursor: pointer;
     border: none;
+    transition: transform 100ms ease-in;
 }
 
 button:hover {
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border: none;
+    transform: scale(1.1);
 }
 
 
@@ -100,6 +106,8 @@ main {
     background-color: #E5E5E5;
     margin: 0 auto;
     padding-left: 90px;
+    padding-bottom: 0;
+    /*padding-bottom: 200px;*/
 }
 
 .section1 {
@@ -196,8 +204,9 @@ main {
 .section3 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 100px;
+    margin-right: 100px;
 
 }
 
@@ -207,16 +216,17 @@ main {
 }
 
 .section4 {
-
+    margin: 0 auto;
+    padding: 0;
 }
 
 .section4 h1 {
     font-size: 70px;
     line-height: 24px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 100px;
     color: #3F3D56;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .goodTrade img {
@@ -235,8 +245,8 @@ main {
     font-family: Open Sans, sans-serif;
     position: absolute;
     z-index: 2;
-    top: 1845px;
-    left: 125px;
+    top: 1980px;
+    left: 185px;
     font-weight: 600;
     font-size: 40px;
     line-height: 12px;
@@ -244,21 +254,24 @@ main {
 
 .round1 {
     z-index: 2;
-    right: 270px;
+    right: 370px;
     bottom: 25px;
+    width: 250px;
+    height: 250px;
 }
 
 .pointer1 {
     z-index: 2;
-    right: 1050px;
+    right: 1270px;
     bottom: 40px;
 }
 
-
 .woman1 {
     z-index: 3;
-    right: 540px;
-    bottom: 45px;
+    right: 680px;
+    bottom: 25px;
+    height: 350px;
+    width: 350px;
 }
 
 .anotherTrade img {
@@ -271,8 +284,8 @@ main {
     font-family: Open Sans, sans-serif;
     position: absolute;
     z-index: 2;
-    top: 1845px;
-    left: 880px;
+    top: 1980px;
+    left: 850px;
     font-weight: 600;
     font-size: 40px;
     line-height: 12px;
@@ -288,20 +301,29 @@ main {
 
 .round2 {
     z-index: 2;
-    left: 355px;
+    left: 280px;
     bottom: 420px;
+    width: 250px;
+    height: 250px;
 }
 
 .pointer2 {
     z-index: 2;
-    left: 35px;
-    bottom: 380px;
+    right: 260px;
+    bottom: 420px;
 }
 
 .woman2 {
     z-index: 3;
-    left: 180px;
-    bottom: 390px;
+    right: 55px;
+    bottom: 430px;
+    width: 250px;
+    height: 270px;
+}
+
+.publicCatering {
+    margin: 0 auto;
+    padding: 0;
 }
 
 .publicCatering img {
@@ -314,8 +336,8 @@ main {
     font-family: Open Sans, sans-serif;
     position: absolute;
     z-index: 2;
-    top: 2325px;
-    left: 125px;
+    top: 2550px;
+    left: 190px;
     font-weight: 600;
     font-size: 40px;
     line-height: 12px;
@@ -330,14 +352,21 @@ main {
 
 .pointer3 {
     z-index: 2;
-    right: 510px;
+    right: 660px;
     bottom: 235px;
 }
 
 .manWoman {
     z-index: 3;
-    right: 410px;
-    bottom: 230px;
+    right: 490px;
+    bottom: 200px;
+    width: 350px;
+    height: 350px;
+}
+
+.services {
+    margin: 0 auto;
+    padding: 0;
 }
 
 .services img {
@@ -350,8 +379,8 @@ main {
     font-family: Open Sans, sans-serif;
     position: absolute;
     z-index: 2;
-    top: 2325px;
-    left: 880px;
+    top: 2550px;
+    left: 840px;
     font-weight: 600;
     font-size: 40px;
     line-height: 12px;
@@ -367,31 +396,30 @@ main {
 
 .round4 {
     z-index: 2;
-    left: 355px;
-    bottom: 570px;
+    left: 295px;
+    bottom: 620px;
+    width: 250px;
+    height: 250px;
 }
 
 .pointer4 {
     z-index: 2;
-    left: 35px;
-    bottom: 575px;
+    right: 210px;
+    bottom: 620px;
 }
 
 .woman4 {
     z-index: 3;
-    left: 80px;
-    bottom: 575px;
-}
-
-.section5 {
-
+    right: 30px;
+    bottom: 600px;
+    width: 300px;
+    height: 300px;
 }
 
 .section5 h1 {
     text-align: center;
     font-size: 70px;
     line-height: 24px;
-    margin-top: 50px;
 }
 
 .section5 h3 {
@@ -408,7 +436,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
     padding-bottom: 20px;
 }
 
@@ -563,12 +590,37 @@ main {
     font-weight: 600;
     font-size: 25px;
     line-height: 10px;
-    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 7px;
     width: 250px;
-
 }
 
+.section6-img {
+    position: relative;
+}
+
+.green {
+    z-index: 1;
+    top: 150px;
+    left: 150px;
+}
+
+.grey {
+    z-index: 2;
+    top: 150px;
+    left: 150px;
+}
+
+.calc {
+    z-index: 3;
+}
+
+.pointerLeft {
+    z-index: 2;
+}
+
+.pointerRight {
+    z-index: 2;
+}
 
 .section7 h1 {
     font-size: 70px;
@@ -597,7 +649,7 @@ main {
 .section7 h4 {
 
     font-family: Open Sans, sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 50px;
     text-align: center;
 }
@@ -644,11 +696,26 @@ select {
 .plus {
     width: 25px;
     height: 25px;
+    margin-top: 40px;
+}
+
+.after-plus {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    margin-left: 20px;
+
 }
 
 .plus-flex {
     display: flex;
     flex-direction: row;
+}
+
+.mouse {
+    margin-top: -35px;
 }
 
 .last-select {
@@ -662,15 +729,25 @@ select {
     padding-top: 17px;
     border-radius: 7px;
     border: none;
+    margin-bottom: 0;
 }
 
-
-/*доделать отступы и шрифт h6*/
-.section7-flex {
-    height: 550px;
+.line7 {
+    width: 290px;
+    height: 0;
+    border: 2px solid #B4ABAB;
+    background-color: #B4ABAB;
+    margin-bottom: 5px;
     margin-top: 50px;
+    margin-left: 20px;
+}
+
+.section7-flex {
+    height: 580px;
+    width: 400px;
+    margin-top: 20px;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 1.0422px rgba(0, 0, 0, 0.08), 0px 1.0422px 12.5065px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 1.0422px rgba(0, 0, 0, 0.08), 0 1.0422px 12.5065px rgba(0, 0, 0, 0.08);
     border-radius: 7.00547px;
 }
 
@@ -678,47 +755,53 @@ select {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 35px;
     color: #898989;
- }
+    margin: 30px 0 20px 30px;
+    padding: 0;
+}
 
-.selection7-flex h6{
+.section7-flex h6 {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 10px;
     color: #000000;
+    margin: 0 0 50px 30px;
+    padding: 0;
 }
 
-.section7-flex h3{
+.section7-flex h3 {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
     line-height: 12px;
     color: #898989;
+    margin: 30px 0 35px 30px;
 }
 
 .section7-flex button {
+    width: 250px;
     font-family: Open Sans, sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 25px;
-    line-height: 18px;
+    line-height: 15px;
     color: #FFFFFF;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 7px;
+    margin: 40px 0 0 30px;
 }
 
 .line {
     width: 382px;
     height: 0;
-    border: 3px solid #B4ABAB;
+    border: 2px solid #B4ABAB;
     background-color: #B4ABAB;
-    margin-bottom: 35px;
-    margin-top: 35px;
+    margin: 0 0 35px 20px;
 }
 
 .section7-flex h5 {
@@ -743,6 +826,161 @@ select {
     line-height: 18px;
 }
 
+footer {
+    /*background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);*/
+    background-image: url("images/footerImg.svg");
+    background-size: 1550px;
+    background-color: #E5E5E5;
+}
+
+.container12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sect1 h2 {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 110%;
+    margin-bottom: 78px;
+    padding-top: 200px;
+}
+
+.sect1 img {
+    width: 227px;
+    height: 75px;
+}
+
+.sect2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 550px;
+    padding-top: 220px;
+}
+
+hr{
+    background-color: #000000;
+    border: none;
+}
+
+.sect2 input {
+    font-family: 'Open Sans', serif;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.sect2 button {
+    font-size: 25px;
+    line-height: 18px;
+}
+
+.container12 p {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.container12 input {
+    width: 385px;
+    height: 70px;
+    top: 36px;
+    border-radius: 7px;
+}
+
+.agree input {
+    width: 395px;
+    height: 60px;
+    left: 785px;
+    top: 579px;
+}
+
+.agree-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.agree-icon p {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 50px;
+    margin-bottom: 48px;
+}
+
+.agree-icon img {
+    border: black;
+    width: 24px;
+    height: 24px;
+    margin-top: 55px;
+    margin-right: 5px;
+}
+
+.container12 button {
+    align-items: center;
+    padding: 22px 32px;
+    width: 384px;
+    height: 83px;
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+
+.container13 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 256px;
+    margin-bottom: 72px;
+}
+
+.cont13-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 620px;
+    align-content: center;
+}
+
+.container13 p {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 110%;
+    opacity: 0.7;
+}
+
+.container13 a {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 100%;
+    color: black;
+}
+
+.container13 hr {
+    width: 294px;
+    height: 1px;
+}
+
+.inform {
+    margin-top: 40px;
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    opacity: 0.7;
+}
 
 
 
