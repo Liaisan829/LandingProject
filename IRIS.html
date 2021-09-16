@@ -21,6 +21,7 @@
         <div class="nav-list">
 
             <a href="#" class="nav-item">Главная</a>
+            <div class="line0"></div>
             <a href="#" class="nav-item">О нас</a>
             <a href="#" class="nav-item">Касса</a>
             <a href="#" class="nav-item">Сценарии</a>
@@ -109,33 +110,35 @@
 
     <div class="section5">
         <h1>Сценарии роста бизнеса</h1>
-        <div class="buttons">
+        <div class="buttons-flex">
             <button class="colored">Рост доходов</button>
             <button>Снижение расходов</button>
         </div>
 
         <h3>Мы даём вам инструменты, которые позволяют повысить<br/> ваш доход и выйти на новый уровень прибыли</h3>
 
-        <div class="section5-flex2">
+        <div class="section5-flex1">
             <img src="images/section5-right.svg" alt="доход +15%">
-            <div class="section5-flex22">
+            <div class="section5-flex11">
                 <h4>Интерактивное обучение</h4>
+                <div class="line2"></div>
                 <p>Создаём диалоговые симуляции <br/>без навыков программирования. <br/> Организуем обучения в
                     виртуальной<br/>
                     и дополненной реальности. Обучение<br/> можно проходить на смартфоне,<br/> компьютере или VR-очках
                 </p>
-                <button>Заказать</button>
+                <button type="submit">Заказать</button>
             </div>
         </div>
 
-        <div class="section5-flex3">
+        <div class="section5-flex2">
             <img src="images/section5-left.svg" alt="доход +25%">
-            <div class="section5-flex33">
-                <h4>Автоматический предзаказы</h4>
+            <div class="section5-flex22">
+                <h4>Автоматические предзаказы</h4>
+                <div class="line2"></div>
                 <p>Анализируем наполненность полки, <br/> распознаем товары и проверяем<br/> выкладку и ассортимет.
                     Контрлируем<br/>
-                    работу кассира, фиксируем ошибки<br/> и нарушения в процесса его работы</p>
-                <button>Заказать</button>
+                    работу кассира, фиксируем ошибки<br/> и нарушения в процессе его работы</p>
+                <button type="submit">Заказать</button>
             </div>
         </div>
 
@@ -143,42 +146,50 @@
 
     <div class="section6">
         <h1>Наши кассы</h1>
-        <div class="section5-buttonflex">
+        <div class="section6-buttonFlex">
             <button class="colored">О кассе</button>
             <button>Видео</button>
             <button>Характеристики</button>
         </div>
 
-        <div class="section5-flex1">
+        <div class="section6-flex1">
             <h1>НЕВА-01-Ф</h1>
             <h4>Идеальное решение <br/> для малого бизнеса</h4>
+            <div class="line1"></div>
             <p>Устройство работает на базе Android, оснащена <br/> семидюймовым сенсорным экраном, портами <br/> USB,
                 Ethernet и сетевыми
                 протоколами GPRS, <br/> Wi-Fi, Bluetooth </p>
             <p>Кассовое ядро позволяет интегрировать <br/> с ККТ НЕВА-01-Ф на любые сторонние <br/> приложения</p>
-            <button>Заказать</button>
         </div>
+        <button type="submit">Заказать</button>
 
+        <div class="">
+            <!--фотка кассового аппарата и ценник внизу-->
+        </div>
     </div>
+
 
     <div class="section7">
         <h1>Выбери то, что нужно тебе</h1>
-
-        <button class="colored">Купить</button>
-        <button>Аренда</button>
-        <button>Наше ПО</button>
+        <div class="section7-buttonFlex">
+            <button class="colored">Купить</button>
+            <button>Аренда</button>
+            <button>Наше ПО</button>
+        </div>
 
         <h4>Выбери решение, которое максимально подходит твоему<br/>
             бизнесу, и посмотри прогнозируемый рост выручки</h4>
 
-        <div class="selectors-flex1">
 
-            <div class="selectors-flex11">
+        <div class="selectors-flex">
 
-                <p>ККТ</p>
-                <select name="ККТ">
-                    <option value="НЕВА-01-Ф">НЕВА-01-Ф</option>
-                </select>
+            <div class="selectors-flex1">
+                <div class = "select1">
+                    <p>ККТ</p>
+                    <select name="ККТ" class="select1">
+                        <option value="НЕВА-01-Ф">НЕВА-01-Ф</option>
+                    </select>
+                </div>
 
                 <p>Сценарий роста бизнеса</p>
 
@@ -194,7 +205,7 @@
                 <div class="plus-flex">
 
                     <img src="images/plus.svg" class="plus" alt="плюсик">
-                    <p class="after-plus">Добавить сценарий</p>
+                    <h5 class="after-plus">Добавить сценарий</h5>
 
                 </div>
 
@@ -205,20 +216,20 @@
                 <img src="images/mouse.svg" alt="mouse">
             </div>
 
-            <div class="section6-flex">
+            <div class="section7-flex">
 
                 <p>Прогнозируемый рост выручки</p>
-                <h5>25 000 руб/мес</h5>
+                <h6>25 000 руб/мес</h6>
                 <div class="line"></div>
-                <p>Итого</p>
+                <h3>Итого</h3>
 
                 <p>Расходы на СРБ</p>
-                <h5>650 руб/мес</h5>
+                <h6>650 руб/мес</h6>
 
                 <p>ККТ</p>
-                <h5>3650 руб</h5>
+                <h6>3650 руб</h6>
 
-                <button>Оставить заявку</button>
+                <button type="submit">Оставить заявку</button>
             </div>
 
         </div>
@@ -227,10 +238,7 @@
 
 
 <footer>
-
-    <div class="footer">
-
-    </div>
+<!--    ору футера нет))))))))-->
 </footer>
 
 </body>

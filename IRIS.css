@@ -13,12 +13,19 @@ h4 {
     font-weight: 600;
 }
 
+/*.line0 {*/
+/*    width: 67px;*/
+/*    height: 0px;*/
+/*    background-color: #3F3D56;*/
+/*    border: 2px solid #3F3D56;*/
+/*    margin-top: 45px;*/
+/*    margin-right: 75px;*/
+/*}*/
+
 button {
     font-family: 'Open Sans', serif;
     font-style: normal;
     font-weight: 1000;
-    font-size: 30px;
-    line-height: 20px;
     border-radius: 20px;
     background: none;
     padding: 18px 28px;
@@ -92,12 +99,12 @@ header {
 main {
     background-color: #E5E5E5;
     margin: 0 auto;
-
+    padding-left: 90px;
 }
 
 .section1 {
     display: flex;
-    padding-left: 90px;
+    flex-direction: row;
 }
 
 .section1-flex {
@@ -106,15 +113,16 @@ main {
 }
 
 .section1 h1 {
-    font-size: 55px;
-    line-height: 30px;
+    font-size: 59px;
+    line-height: 24px;
 }
 
 .section1 h2 {
+    margin-top: 60px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-size: 40px;
-    line-height: 20px;
+    font-size: 45px;
+    line-height: 30px;
     padding-top: 30px;
 }
 
@@ -131,8 +139,8 @@ main {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 35px;
+    line-height: 35px;
 }
 
 .section1 img {
@@ -141,12 +149,12 @@ main {
 }
 
 .section2 {
-    padding-left: 90px;
+
 }
 
 .section2 h1 {
     text-align: center;
-    font-size: 55px;
+    font-size: 70px;
     line-height: 24px;
 }
 
@@ -166,16 +174,16 @@ main {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 55px;
 }
 
 .section2-innerFlex p {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 35px;
+    line-height: 35px;
 }
 
 .section2 img {
@@ -187,9 +195,10 @@ main {
 
 .section3 {
     display: flex;
-    justify-content: space-around;
-    margin-left: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin-top: 100px;
+
 }
 
 .section3 img {
@@ -197,48 +206,29 @@ main {
     height: 250px;
 }
 
-.section3 h1 {
-    text-align: center;
-    font-size: 50px;
-    line-height: 24px;
-    color: #3F3D56;
-}
-
-.section3 img {
-    text-align: center;
-    margin: 0 auto;
-}
-
 .section4 {
-    margin-left: 80px;
-    margin-top: 100px;
-    margin-bottom: 0;
-    padding: 0;
+
 }
 
 .section4 h1 {
-    font-size: 50px;
+    font-size: 70px;
     line-height: 24px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
     color: #3F3D56;
-    padding-bottom: 40px;
-}
-
-.goodTrade{
-    margin: 0;
-    padding: 0;
+    padding-bottom: 50px;
 }
 
 .goodTrade img {
     position: relative;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .rectangle1 {
     z-index: 1;
-
-    /*width: 525px;*/
-    /*height: 305.03px; может сделать чуть больше в размере и высота и ширина*/
+    width: 750px;
+    height: 380px;
 }
 
 .goodTradeText {
@@ -271,13 +261,10 @@ main {
     bottom: 45px;
 }
 
-.anotherTrade{
-    margin: 0;
-    padding: 0;
-}
-
 .anotherTrade img {
     position: relative;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .anotherTradeText {
@@ -293,14 +280,16 @@ main {
 
 .rectangle2 {
     z-index: 1;
-    left: 750px;
-    bottom: 335px;
+    left: 650px;
+    bottom: 385px;
+    width: 750px;
+    height: 380px;
 }
 
 .round2 {
     z-index: 2;
-    left: 480px;
-    bottom: 360px;
+    left: 355px;
+    bottom: 420px;
 }
 
 .pointer2 {
@@ -315,13 +304,10 @@ main {
     bottom: 390px;
 }
 
-.publicCatering{
-    margin: 0;
-    padding: 0;
-}
-
 .publicCatering img {
     position: relative;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .publicCateringText {
@@ -338,6 +324,8 @@ main {
 .rectangle3 {
     z-index: 1;
     bottom: 200px;
+    width: 750px;
+    height: 380px;
 }
 
 .pointer3 {
@@ -352,13 +340,10 @@ main {
     bottom: 230px;
 }
 
-/*.services{*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
-
 .services img {
     position: relative;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .servicesText {
@@ -374,13 +359,15 @@ main {
 
 .rectangle4 {
     z-index: 1;
-    left: 750px;
-    bottom: 537px;
+    left: 650px;
+    bottom: 585px;
+    width: 750px;
+    height: 380px;
 }
 
 .round4 {
     z-index: 2;
-    left: 510px;
+    left: 355px;
     bottom: 570px;
 }
 
@@ -392,34 +379,40 @@ main {
 
 .woman4 {
     z-index: 3;
-    left: 180px;
+    left: 80px;
     bottom: 575px;
 }
 
-.section5{
+.section5 {
 
 }
 
 .section5 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     line-height: 24px;
-    /*margin-top: 120px;*/
+    margin-top: 50px;
 }
 
 .section5 h3 {
     font-family: Open Sans, sans-serif;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 35px;
+    line-height: 40px;
     text-align: center;
+    padding-bottom: 40px;
 }
 
-.buttons {
+.buttons-flex {
     border: none;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+
+    padding-bottom: 20px;
+}
+
+.buttons-flex button {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -427,9 +420,52 @@ main {
     line-height: 20px;
 }
 
+.section5-flex11 h4 {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.section5-flex1 img {
+    width: 620px;
+}
+
+.section5-flex11 p {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+}
+
+.section5-flex11 button {
+    width: 250px;
+    font-size: 25px;
+    line-height: 18px;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 7px;
+}
+
+.section5-flex11 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section5-flex1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
 .section5-flex22 h4 {
     font-family: Source Sans Pro, sans-serif;
-    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
     line-height: 30px;
 }
 
@@ -437,12 +473,14 @@ main {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 35px;
 }
 
 .section5-flex22 button {
-
+    width: 250px;
+    font-size: 25px;
+    line-height: 18px;
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 7px;
 }
@@ -454,40 +492,22 @@ main {
 
 .section5-flex2 {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-}
-
-.section5-flex33 h4 {
-    font-family: Source Sans Pro, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 30px;
-}
-
-.section5-flex33 p {
-    font-family: Open Sans, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 30px;
-}
-
-.section5-flex33 button {
-    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
-    border-radius: 7px;
-}
-
-.section5-flex33 {
-    display: flex;
-    flex-direction: column;
-}
-
-.section5-flex3 {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    margin-right: 140px;
+}
+
+.section5-flex2 img {
+    width: 630px;
+}
+
+.line2 {
+    width: 280px;
+    height: 0;
+    border: 3px solid #B4ABAB;
+    background-color: #B4ABAB;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .colored {
@@ -495,86 +515,130 @@ main {
     border-radius: 20px;
 }
 
-
-/**/
-
-.section5 h1 {
-    font-size: 50px;
-    line-height: 50px;
-    text-align: center;
-}
-
-.section5-buttonflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.section5 h2 {
-    font-size: 50px;
-    line-height: 45px;
-}
-
-.section5-flex1 {
-    display: flex;
-    flex-direction: column;
-}
-
-.section5-flex1 h1 {
-    font-size: 50px;
-    line-height: 45px;
-    text-align: left;
-}
-
 .section6 h1 {
-    font-size: 50px;
+    margin-top: 80px;
+    font-size: 70px;
     line-height: 24px;
     text-align: center;
 }
 
-.section6 h4 {
+.section6-buttonFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.section6-flex1 h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    line-height: 45px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.section6-flex1 h4 {
+    font-family: Open Sans, sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.section6-flex1 p {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section6-flex1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section6 button {
+
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 10px;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 7px;
+    width: 250px;
+
+}
+
+
+.section7 h1 {
+    font-size: 70px;
+    line-height: 24px;
+    text-align: center;
+    /*    возможно понадобится марджин топ но пока не буду
+     ибо есть фотка кассы который надо верстать*/
+}
+
+.section7-buttonFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.section7-buttonFlex button {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 20px;
+
+}
+
+.section7 h4 {
+
+    font-family: Open Sans, sans-serif;
+    font-size: 45px;
+    line-height: 50px;
     text-align: center;
 }
 
+/*    */
 select {
     width: 553px;
     height: 70px;
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 25px;
+    padding-bottom: 10px;
 
     background: #FFFFFF;
 
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 2px 24px rgba(0, 0, 0, 0.08);
     border-radius: 7px;
 }
 
-.selectors-flex1 {
+.selectors-flex {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.selectors-flex11 {
+.selectors-flex1 {
     display: flex;
     flex-direction: column;
     justify-content: left;
 }
 
-.section6 p {
+.section7 p {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 25px;
     color: #898989;
+
 }
 
 .plus {
@@ -600,19 +664,52 @@ select {
     border: none;
 }
 
-.section6-flex {
+
+/*доделать отступы и шрифт h6*/
+.section7-flex {
+    height: 550px;
+    margin-top: 50px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 1.0422px rgba(0, 0, 0, 0.08), 0px 1.0422px 12.5065px rgba(0, 0, 0, 0.08);
-    border-radius: 7px;
+    border-radius: 7.00547px;
 }
 
-.section6-flex p {
+.section7-flex p {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 35px;
     color: #898989;
+ }
+
+.selection7-flex h6{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 10px;
+    color: #000000;
+}
+
+.section7-flex h3{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 12px;
+    color: #898989;
+}
+
+.section7-flex button {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 7px;
 }
 
 .line {
@@ -624,7 +721,7 @@ select {
     margin-top: 35px;
 }
 
-.section6-flex h5 {
+.section7-flex h5 {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -632,7 +729,7 @@ select {
     line-height: 12px;
 }
 
-.section6-flex button {
+.section7-flex button {
     background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
     border-radius: 7px;
     width: 300px;
